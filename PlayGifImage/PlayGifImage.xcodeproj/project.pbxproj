@@ -15,6 +15,7 @@
 		C9C92C3D1F4587CE00339E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C92C3C1F4587CE00339E11 /* Assets.xcassets */; };
 		C9C92C401F4587CE00339E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C92C3E1F4587CE00339E11 /* LaunchScreen.storyboard */; };
 		C9C92C4A1F458A8A00339E11 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C9C92C491F458A8A00339E11 /* Podfile */; };
+		C9C92C4C1F458DD900339E11 /* eat.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9C92C4B1F458DD900339E11 /* eat.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,8 @@
 		C9C92C3C1F4587CE00339E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9C92C3F1F4587CE00339E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9C92C411F4587CE00339E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C92C491F458A8A00339E11 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C9C92C491F458A8A00339E11 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9C92C4B1F458DD900339E11 /* eat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eat.gif; sourceTree = "<group>"; };
 		DCF58557199805FC906D2E70 /* Pods-PlayGifImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGifImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGifImage/Pods-PlayGifImage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		C9C92C2F1F4587CE00339E11 /* PlayGifImage */ = {
 			isa = PBXGroup;
 			children = (
+				C9C92C4B1F458DD900339E11 /* eat.gif */,
 				C9C92C331F4587CE00339E11 /* AppDelegate.h */,
 				C9C92C341F4587CE00339E11 /* AppDelegate.m */,
 				C9C92C361F4587CE00339E11 /* ViewController.h */,
@@ -172,6 +175,7 @@
 				C9C92C3D1F4587CE00339E11 /* Assets.xcassets in Resources */,
 				C9C92C4A1F458A8A00339E11 /* Podfile in Resources */,
 				C9C92C3B1F4587CE00339E11 /* Main.storyboard in Resources */,
+				C9C92C4C1F458DD900339E11 /* eat.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +397,7 @@
 				C9C92C461F4587CE00339E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
